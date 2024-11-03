@@ -1,0 +1,25 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+th {
+	cursor: pointer;
+	background-color: #f2f2f2;
+	user-select: none;
+}
+th:hover {
+	background-color: #a4cf80;
+}
+input {
+	margin: 20px 0;
+	padding: 8px;
+	width: 100%;
+	max-width: 300px;
+}
